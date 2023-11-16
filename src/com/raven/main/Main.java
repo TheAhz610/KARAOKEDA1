@@ -116,6 +116,7 @@ public class Main extends javax.swing.JFrame {
     void dangXuat() {
 
         this.dispose();
+        
         new DANGNHAP().setVisible(true);
         setVisible(true);
     }
